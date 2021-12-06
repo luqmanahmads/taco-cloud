@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/tacocloud
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver  jpa:    generate-ddl: true
+
+logging:
+  file.path: C:\
+  file.name: taco_cloud.log
+  level:    root: WARN
+    tacos: DEBUG
